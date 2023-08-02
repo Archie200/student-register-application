@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px; /* Adding padding to the body */
+    background-color: #f0f0f0; /* Changing the background color to light gray */
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #1e90ff; /* Changing the background color of the nav-bar to a shade of blue */
+    color: white;
+}
+
+.students {
+    display: flex;
+    gap: 10px;
+    height: auto;
+    background-color: #1fa447; /* Changing the background color of the students section to a light gray */
+}
+
+
+.enroll-student {
+    margin-top: 30px;
+    padding: 0 20px;
+    width: 45%;
+    height: auto;
+    background-color: #1fa447; /* Changing the background color of the enroll-student section to white */
+}
+
+#enrolled-students {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 55%;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+    background-color: #1fa447; /* Changing the background color of the enrolled-students section to a slightly darker gray */
+}
+
+/* Changing the background color and border color of the section-heading */
+.section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e90ff; /* Changing the background color of the section-heading to a shade of blue */
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid #1c83b6; /* Changing the border color of the section-heading */
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1fa447; /* Changing the background color of the wrapper to white */
+    border: 2px solid #1c83b6; /* Changing the border color of the wrapper */
+    border-top: none;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Changing the color of the user-delete-btn */
+.user-delete-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    transform: rotate(45deg);
+    display: none;
+    color: #ff4500; /* Changing the color of the delete button to a shade of orange-red */
+}
+
+.wrapper:hover .user-delete-btn {
+    display: block;
+}
+
+.text-info-container {
+    width: 70%;
+    padding: 10px;
+    border-right: 2px solid #C12B72;
+}
+
+.image-container {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.user-image {
+    width: 105px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    hr.separation-border {
+        height: 0;
+    }
+}
+
+
+
+  
+ 
